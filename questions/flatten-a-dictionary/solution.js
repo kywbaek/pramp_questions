@@ -1,3 +1,4 @@
+// Pseudocode
 function flattenDictionary(dict):
     flatDictionary = {}
     flattenDictionaryHelper("", dict, flatDictionary)
@@ -9,7 +10,7 @@ function flattenDictionaryHelper(initialKey, dict, flatDictionary):
     for (key : dict.keyset()):
         value = dict.get(key)
 
-        if (!isDictionary(value)): # the value is of a primitive type
+        if (!isDictionary(value)): // the value is of a primitive type
             if (initialKey == null || initialKey == ""):
                 flatDictionary.put(key, value)
             else:
