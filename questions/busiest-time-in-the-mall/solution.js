@@ -22,3 +22,6 @@ function findBusiestPeriod(data):
             maxPeriodTime = data[i][0]
 
     return maxPeriodTime
+
+// Time Complexity: O(N) since every data point in the input array gets visited only once in the for loop.
+// Space Complexity: O(1). The various auxiliary counters and the output, all use a constant space.
