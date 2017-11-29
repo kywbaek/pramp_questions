@@ -1,25 +1,46 @@
-// Pseudocode
-function flattenDictionary(dict):
-    flatDictionary = {}
-    flattenDictionaryHelper("", dict, flatDictionary)
+var flatDictionary;
+function flattenDictionary(dict) {
+  flatDictionary = {};
+  flattenDictionaryHelper("", dict, flatDictionary);
 
-    return flatDictionary
+  return flatDictionary
+}
 
+function flattenDictionaryHelper(initialKey, dict, flatDictioinary) {
+  for (let key in dict) {
+    let value = dict[key];
 
-function flattenDictionaryHelper(initialKey, dict, flatDictionary):
-    for (key : dict.keyset()):
-        value = dict.get(key)
+    if (typeof value != 'object') {
+      if (key === "" || initialKey === "") {
+        flatDictionary[initialKey + key] = value;
+      } else {
+        flatDictionary[initialKey + "." + key] = value;
+      }
+    }
+    else {
+      if (key === "" || initialKey === "") {
+        flattenDictionaryHelper(initialKey + key, value, flatDictionary);
+      } else {
+        flattenDictionaryHelper(initialKey + "." + key, value, flatDictionary);
+      }
+    }
+  }
+}
 
-        if (!isDictionary(value)): // the value is of a primitive type
-            if (initialKey == null || initialKey == ""):
-                flatDictionary.put(key, value)
-            else:
-                flatDictionary.put(initialKey + "." + key, value)
-        else:
-            if (initialKey == null || initialKey == "")
-                flattenDictionaryHelper(key, value, flatDictionary)
-            else:
-                flattenDictionaryHelper(initialKey + "." + key, value, flatDictionary)
+/*
+const dict = {
+            "Key1" : "1",
+            "Key2" : {
+                "a" : "2",
+                "b" : "3",
+                "c" : {
+                    "d" : "3",
+                    "e" : "1"
+                }
+            }
+        };
+console.log(flattenDictionary(dict));
+*/
 
 /*
 Time Complexity: O(N), where N is the number of keys in the input dictionary. We visit every key in dictionary only once, hence the linear time complexity.
