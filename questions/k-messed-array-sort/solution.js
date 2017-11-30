@@ -1,3 +1,4 @@
+/*
 // K-Messed Array Sort
 
 // A simple solution would be to use an efficient sorting algorithm to sort the whole array again. The worst case time complexity of this approach will be O(N⋅log(N)) where N is the size of the input array. This method also do not use the fact that array is k-sorted.
@@ -45,6 +46,25 @@ function sortKMessedArray(arr, k):
         arr[n-k-1 + i] = h.extractMin()
 
     return arr
+*/
+
+function insertionSort(arr) {
+  for (let i=1; i<arr.length; i++) {
+    let x = arr[i];
+    let j = i-1;
+
+    while (j>=0 && arr[j]>x) {
+      arr[j+1] = arr[j];
+      j--;
+    }
+    arr[j+1] = x
+  }
+
+  return arr
+}
+
+var arr = [1, 4, 5, 2, 3, 7, 8, 6, 10, 9]
+var k = 2
 
 /*
 Time Complexity: building a heap takes O(K) time for K+1 elements. Insertion into and extraction from the min-heap take O(log(K)), each. Across all three loops, we do at least one of these actions N times, so the total time complexity is O(N⋅log(K)). if K is substantially smaller than N, then we can consider log(K) constant and argue that the complexity is practically linear.
