@@ -1,4 +1,4 @@
-def sort_k_messed_array(arr, k):
+def k_selection_sort(arr, k):
     n = len(arr)
     for i in xrange(n):
         Index = i
@@ -14,4 +14,4 @@ def sort_k_messed_array(arr, k):
 arr = [1, 4, 5, 2, 3, 7, 8, 6, 10, 9]
 k = 2
 
-print sort_k_messed_array(arr, k)
+print k_selection_sort(arr, k)
