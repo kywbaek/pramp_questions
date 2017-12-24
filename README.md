@@ -10,4 +10,5 @@ _Coding Challenge Practice Questions from [pramp](https://www.pramp.com)_
 - [Merging 2 Packages](https://github.com/kywbaek/pramp_questions/blob/master/questions/merging-2-packages/QUESTION.md)
 - [Pancake Sort](https://github.com/kywbaek/pramp_questions/blob/master/questions/pancake-sort/QUESTION.md)
 - [Sentence Reverse](https://github.com/kywbaek/pramp_questions/blob/master/questions/sentence-reverse/QUESTION.md)
+- [Shifted Array Search](https://github.com/kywbaek/pramp_questions/blob/master/questions/shifted-array-search/QUESTION.md)
 - [Smallest Substring of All Characters](https://github.com/kywbaek/pramp_questions/blob/master/questions/smallest-substring-of-all-characters/QUESTION.md)
