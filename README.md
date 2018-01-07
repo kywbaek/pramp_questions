@@ -16,3 +16,4 @@ _Coding Challenge Practice Questions from [pramp](https://www.pramp.com)_
 - [Sentence Reverse](https://github.com/kywbaek/pramp_questions/blob/master/questions/sentence-reverse/QUESTION.md)
 - [Shifted Array Search](https://github.com/kywbaek/pramp_questions/blob/master/questions/shifted-array-search/QUESTION.md)
 - [Smallest Substring of All Characters](https://github.com/kywbaek/pramp_questions/blob/master/questions/smallest-substring-of-all-characters/QUESTION.md)
+- [Sudoku Solver](https://github.com/kywbaek/pramp_questions/blob/master/questions/sudoku-solver/QUESTION.md)
