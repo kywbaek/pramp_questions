@@ -5,6 +5,7 @@ _Coding Challenge Practice Questions from [pramp](https://www.pramp.com)_
 - [Array Index & Element Equality](https://github.com/kywbaek/pramp_questions/blob/master/questions/array-index-and-element-equality/QUESTION.md)
 - [Array of Array Products](https://github.com/kywbaek/pramp_questions/blob/master/questions/array-of-array-products/QUESTION.md)
 - [Award Budget Cuts](https://github.com/kywbaek/pramp_questions/blob/master/questions/award-budget-cuts/QUESTION.md)
+- [Basic Regex Parser](https://github.com/kywbaek/pramp_questions/blob/master/questions/basic-regex-parser/QUESTION.md)
 - [Bracket Match](https://github.com/kywbaek/pramp_questions/blob/master/questions/bracket-match/QUESTION.md)
 - [BST Successor Search](https://github.com/kywbaek/pramp_questions/blob/master/questions/bst-successor-search/QUESTION.md)
 - [Busiest Time in the Mall](https://github.com/kywbaek/pramp_questions/blob/master/questions/busiest-time-in-the-mall/QUESTION.md)
