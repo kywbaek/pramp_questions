@@ -12,6 +12,7 @@ _Coding Challenge Practice Questions from [pramp](https://www.pramp.com)_
 - [Decrypt Message](https://github.com/kywbaek/pramp_questions/blob/master/questions/decrypt-message/QUESTION.md)
 - [Flatten a Dictionary](https://github.com/kywbaek/pramp_questions/blob/master/questions/flatten-a-dictionary/QUESTION.md)
 - [Getting a Different Number](https://github.com/kywbaek/pramp_questions/blob/master/questions/getting-a-different-number/QUESTION.md)
+- [H-Tree Construction](https://github.com/kywbaek/pramp_questions/blob/master/questions/h-tree-construction/QUESTION.md)
 - [K-Messed Array Sort](https://github.com/kywbaek/pramp_questions/blob/master/questions/k-messed-array-sort/QUESTION.md)
 - [Largest Smaller BST Key](https://github.com/kywbaek/pramp_questions/blob/master/questions/largest-smaller-bst-key/QUESTION.md)
 - [Matrix Spiral Copy](https://github.com/kywbaek/pramp_questions/blob/master/questions/matrix-spiral-copy/QUESTION.md)
