@@ -11,17 +11,14 @@ function findBusiestPeriod(data) {
     else if (data[i][2] === 0) {
       count -= data[i][1];
     }
-
     if (i < n-1 && data[i][0] === data[i+1][0]) {
       continue
     }
-
     if (count > maxCount) {
       maxCount = count
       maxPeriodTime = data[i][0]
     }
   }
-
   return maxPeriodTime
 }
 
