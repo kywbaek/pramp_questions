@@ -17,5 +17,6 @@ output: [84, 24, 56, 42] // by calculating: [7*3*4, 2*3*4, 2*7*4, 2*7*3]
 
 Constraints:
 - [time limit] 5000ms
-- [input] array.integer arr (0 ≤ **arr.length** ≤ 20)
+- [input] array.integer arr
+  - 0 ≤ arr.length ≤ 20
 - [output] array.integer
