@@ -20,6 +20,8 @@ output: 47 // and given this cap the new grants array would be
 
 Constraints:
 - [time limit] 5000ms
-- [input] array.double grantsArray (0 ≤ **grantsArray.length** ≤ 20, 0 ≤ **grantsArray[i]**)
+- [input] array.double grantsArray
+  - 0 ≤ grantsArray.length ≤ 20
+  - 0 ≤ grantsArray[i]
 - [input] double newBudget
 - [output] double
