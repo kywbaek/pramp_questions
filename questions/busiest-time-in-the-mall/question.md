@@ -28,5 +28,5 @@ output: 1487800378 // since the increase in the number of people
 Constraints:
 - [time limit] 5000ms
 - [input] array.array.integer data
-- 1 ≤ data.length ≤ 100
+  - 1 ≤ data.length ≤ 100
 - [output] integer
