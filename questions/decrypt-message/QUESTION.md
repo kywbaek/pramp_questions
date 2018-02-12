@@ -34,5 +34,6 @@ Note: Most programing languages have built-in methods of converting letters to A
 
 Constraints:
 - [time limit] 5000ms
-- [input] string word (The ASCII value of every char is in the range of lowercase letters a-z.)
+- [input] string word
+  - The ASCII value of every char is in the range of lowercase letters a-z.
 - [output] string
