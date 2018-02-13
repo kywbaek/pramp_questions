@@ -15,6 +15,8 @@ output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 Constraints:
 - [time limit] 5000ms
-- [input] array.integer arr (1 ≤ **arr.length** ≤ 100)
-- [input] integer k (1 ≤ **k** ≤ 20)
+- [input] array.integer arr
+  - 1 ≤ arr.length ≤ 100
+- [input] integer k
+  - 1 ≤ k ≤ 20
 - [output] array.integer
