@@ -20,6 +20,6 @@ See the illustration below to understand better what a clockwise spiral order lo
 Constraints:
 - [time limit] 5000ms
 - [input] array.array.integer inputMatrix
-    - 1 ≤ **inputMatrix[0].length** ≤ 100
-    - 1 ≤ **inputMatrix.length** ≤ 100
+    - 1 ≤ inputMatrix[0].length ≤ 100
+    - 1 ≤ inputMatrix.length ≤ 100
 - [output] array.integer
