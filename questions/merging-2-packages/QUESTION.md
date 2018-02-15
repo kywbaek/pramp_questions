@@ -16,6 +16,7 @@ output: [3, 1] // since these are the indices of the
 
 Constraints:
 - [time limit] 5000ms
-- [input] array.integer arr (0 ≤ **arr.length** ≤ 100)
+- [input] array.integer arr
+  - 0 ≤ arr.length ≤ 100
 - [input] integer limit
 - [output] array.integer
