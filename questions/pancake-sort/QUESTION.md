@@ -21,5 +21,6 @@ Note: it’s called pancake sort because it resembles sorting pancakes on a plat
 Constraints:
 - [time limit] 5000ms
 - [input] array.integer arr
-- [input] integer k (0 ≤ **k**)
+- [input] integer k
+  - 0 ≤ k
 - [output] array.integer
