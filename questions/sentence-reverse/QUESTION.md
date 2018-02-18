@@ -21,5 +21,6 @@ output: [ 'p', 'r', 'a', 'c', 't', 'i', 'c', 'e', '  ',
 
 Constraints:
 - [time limit] 5000ms
-- [input] array.character arr (0 ≤ **arr.length** ≤ 100)
+- [input] array.character arr
+  - 0 ≤ arr.length ≤ 100
 - [output] array.character
