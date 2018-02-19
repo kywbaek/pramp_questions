@@ -15,6 +15,8 @@ output: "zyx"
 
 Constraints:
 - [time limit] 5000ms
-- [input] array.character arr (1 ≤ **arr.length** ≤ 30)
-- [input] string str (1 ≤ **str.length** ≤ 500)
+- [input] array.character arr
+  - 1 ≤ arr.length ≤ 30
+- [input] string str
+  - 1 ≤ str.length ≤ 500
 - [output] string
