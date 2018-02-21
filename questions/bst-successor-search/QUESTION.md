@@ -5,7 +5,7 @@ In a Binary Search Tree (BST), an Inorder Successor of a node is defined as the 
 
 Explain your solution and analyze its time and space complexities.
 
-![alt text](https://www.pramp.com/img/content/img_02.png "Binary Search Tree")
+<img src="https://www.pramp.com/img/content/img_02.png" width="400">
 
 In this diagram, the inorder successor of 9 is 11 and the inorder successor of 14 is 20.
 
