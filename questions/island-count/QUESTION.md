@@ -19,7 +19,7 @@ output: 6 // since this is the number of islands in binaryMatrix.
           // See all 6 islands color-coded below.
 ```
 
-<img src="https://www.pramp.com/img/content/img09.png">
+<img src="https://www.pramp.com/img/content/img09.png" width="400">
 
 Constraints:
 - [time limit] 5000ms
