@@ -8,7 +8,7 @@ Analyze the time and space complexities of your solution.
 For example:
 For num = 17 and the binary search tree below:
 
-![alt text!](https://www.pramp.com/img/content/img_02.png "Binary Tree")
+<img src="https://www.pramp.com/img/content/img_02.png" width="400">
 
 Your function would return:
 
