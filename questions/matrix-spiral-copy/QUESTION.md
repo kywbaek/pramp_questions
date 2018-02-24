@@ -15,7 +15,7 @@ output: [1, 2, 3, 4, 5, 10, 15, 20, 19, 18, 17, 16, 11, 6, 7, 8, 9, 14, 13, 12]
 ```
 
 See the illustration below to understand better what a clockwise spiral order looks like.
-![alt text](https://www.pramp.com/img/content/img06.png "Clockwise spiral order")
+<img src="https://www.pramp.com/img/content/img06.png" width="400">
 
 Constraints:
 - [time limit] 5000ms
