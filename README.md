@@ -12,6 +12,7 @@ _Coding Challenge Practice Questions from [pramp](https://www.pramp.com)_
 - [Busiest Time in the Mall](https://github.com/kywbaek/pramp_questions/blob/master/questions/busiest-time-in-the-mall/QUESTION.md)
 - [Decrypt Message](https://github.com/kywbaek/pramp_questions/blob/master/questions/decrypt-message/QUESTION.md)
 - [Drone Flight Planner](https://github.com/kywbaek/pramp_questions/blob/master/questions/drone-flight-planner/QUESTION.md)
+- [Find The Duplicates](https://github.com/kywbaek/pramp_questions/blob/master/questions/find-the-duplicates/QUESTION.md)
 - [Flatten a Dictionary](https://github.com/kywbaek/pramp_questions/blob/master/questions/flatten-a-dictionary/QUESTION.md)
 - [Getting a Different Number](https://github.com/kywbaek/pramp_questions/blob/master/questions/getting-a-different-number/QUESTION.md)
 - [H-Tree Construction](https://github.com/kywbaek/pramp_questions/blob/master/questions/h-tree-construction/QUESTION.md)
