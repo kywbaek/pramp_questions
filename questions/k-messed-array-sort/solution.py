@@ -14,7 +14,7 @@ def sort_k_messed_array(arr, k):
 
     return arr
 
-# k selection sort
+# k selection sort  time: O(NK)     space: O(1)
 def sort_k_messed_array1(arr, k):
     n = len(arr)
     for i in xrange(n):
