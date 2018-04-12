@@ -1,6 +1,3 @@
-import java.io.*;
-import java.util.*;
-
 class Solution {
 
   static int[] findArrayQuadruplet(int[] arr, int s) {
