@@ -1,6 +1,3 @@
-import java.io.*;
-import java.util.*;
-
 class Solution {
 
   static boolean isMatch(String text, String pattern) {
