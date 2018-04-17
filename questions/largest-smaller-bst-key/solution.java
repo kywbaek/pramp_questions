@@ -1,17 +1,3 @@
-import java.io.*;
-import java.util.*;
-
-/***********************************************************
- * CODE INSTRUCTIONS:                                      *
- * 1) The method findLargestSmallerKey you're              *
- *    asked to implement is located at line 36.            *
- * 2) Use the helper code below to implement it.           *
- * 3) In a nutshell, the helper code allows you to         *
- *    to build a Binary Search Tree.                       *
- * 4) Jump to line 82 to see an example for how the        *
- *    helper code is used to test findLargestSmallerKey.   *
- ***********************************************************/
-
 class Solution {
 
   static class Node {
