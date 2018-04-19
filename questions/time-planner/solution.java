@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
 
   static int[] meetingPlanner(int[][] slotsA, int[][] slotsB, int dur) {
