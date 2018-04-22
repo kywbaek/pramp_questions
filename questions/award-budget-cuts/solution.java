@@ -1,7 +1,6 @@
 import java.util.*;
 
 class Solution {
-
   static double findGrantsCap(double[] grantsArray, double newBudget) {
     Arrays.sort(grantsArray);
     int n = grantsArray.length;
@@ -31,6 +30,14 @@ class Solution {
     }
     return 0;
   }
+
   public static void main(String[] args) {
+    int [] grantsArray = [2, 100, 50, 120, 1000];
+    int newBudget = 190;
+
+    // Expected output: 47
+    /* and given this cap the new grants array would be [2, 47, 47, 47, 47].
+        Notice that the sum of the new grants is indeed 190 */
+    System.out.println(findGrantsCap(grantsArray, newBudget));
   }
 }
