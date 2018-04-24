@@ -18,5 +18,16 @@ class Solution {
     }
 
     public static void main(String[] args) {
+        String text = "(()";
+        // Expected output: 1
+        System.out.println(solution(text));
+
+        text = "(())";
+        // Expected output: 0
+        System.out.println(solution(text));
+
+        text = "())(";
+        // Expected output: 2
+        System.out.println(solution(text));
     }
 }
