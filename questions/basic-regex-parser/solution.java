@@ -1,5 +1,4 @@
 class Solution {
-
   static boolean isMatch(String text, String pattern) {
     return isMatchHelper(text, pattern, 0, 0);
   }
@@ -29,8 +28,26 @@ class Solution {
       return false;
     }
   }
+
   public static void main(String[] args) {
+    String text = "aa", pattern = "a";
+    // Expected output: false
+    System.out.println(isMatch(text, pattern));
 
+    text = "aa", pattern = "aa";
+    // Expected output: true
+    System.out.println(isMatch(text, pattern));
+
+    text = "abc", pattern = "a.c";
+    // Expected output: true
+    System.out.println(isMatch(text, pattern));
+
+    text = "abbb", pattern = "ab*";
+    // Expected output: true
+    System.out.println(isMatch(text, pattern));
+
+    text = "acd", pattern = "ab*c.";
+    // Expected output: true
+    System.out.println(isMatch(text, pattern));
   }
-
 }
