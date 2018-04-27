@@ -17,5 +17,12 @@ class Solution {
   }
 
   public static void main(String[] args) {
+    String word = "dnotq";
+    // Expected output: "crime"
+    System.out.println(decrypt(word));
+
+    word = "flgxswdliefy";
+    // Expected output: "encyclopedia"
+    System.out.println(decrypt(word));
   }
 }
