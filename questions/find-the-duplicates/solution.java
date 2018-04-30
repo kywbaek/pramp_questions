@@ -24,5 +24,9 @@ class Solution {
   }
 
   public static void main(String[] args) {
+    int[] arr1 = [1, 2, 3, 5, 6, 7];
+    int[] arr2 = [3, 6, 7, 8, 20];
+    // Expected output: [3, 6, 7] since only these three values are both in arr1 and arr2
+    System.out.println(findDuplicates(arr1,arr2));
   }
 }
