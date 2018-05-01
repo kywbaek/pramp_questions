@@ -7,6 +7,8 @@ Given a dictionary dict, write a function flattenDictionary that returns a flatt
 
 If you’re using a compiled language such Java, C++, C#, Swift and Go, you may want to use a Map/Dictionary/Hash Table that maps strings (keys) to a generic type (e.g. Object in Java, AnyObject in Swift etc.) to allow nested dictionaries.
 
+If a certain key is empty, it should be excluded from the output (see e in the example below).
+
 Example:
 
 ```javascript
@@ -17,7 +19,9 @@ input:  dict = {
                 "b" : "3",
                 "c" : {
                     "d" : "3",
-                    "e" : "1"
+                    "e" : {
+                        "" : "1"
+                    }
                 }
             }
         }
