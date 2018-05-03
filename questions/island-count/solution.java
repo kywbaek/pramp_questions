@@ -37,6 +37,14 @@ class Solution {
   }
 
   public static void main(String[] args) {
+    int[][] binaryMatrix = {{0,    1,    0,    1,    0},
+                            {0,    0,    1,    1,    1},
+                            {1,    0,    0,    1,    0},
+                            {0,    1,    1,    0,    0},
+                            {1,    0,    1,    0,    1}};
+    // Expected output: 6
+    // since this is the number of islands in binaryMatrix
+    System.out.println(getNumberOfIslands(binaryMatrix));
   }
 
 }
