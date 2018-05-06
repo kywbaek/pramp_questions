@@ -19,3 +19,8 @@ Constraints:
   - 1 ≤ arr.length ≤ 100
 - [output] integer
 
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/array-index-and-element-equality/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/array-index-and-element-equality/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/array-index-and-element-equality/solution.py)
+
