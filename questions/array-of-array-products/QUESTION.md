@@ -20,3 +20,8 @@ Constraints:
 - [input] array.integer arr
   - 0 ≤ arr.length ≤ 20
 - [output] array.integer
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/array-of-array-products/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/array-of-array-products/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/array-of-array-products/solution.py)
