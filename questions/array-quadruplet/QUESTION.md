@@ -24,3 +24,7 @@ Constraints:
 - [input] integer s
 - [output] array.integer
 
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/array-quadruplet/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/array-quadruplet/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/array-quadruplet/solution.py)
