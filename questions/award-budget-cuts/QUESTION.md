@@ -25,3 +25,8 @@ Constraints:
   - 0 ≤ grantsArray[i]
 - [input] double newBudget
 - [output] double
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/award-budget-cuts/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/award-budget-cuts/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/award-budget-cuts/solution.py)
