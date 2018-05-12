@@ -30,3 +30,8 @@ Constraints:
 - [input] string text
 - [input] string pattern
 - [output] boolean
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/basic-regex-parser/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/basic-regex-parser/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/basic-regex-parser/solution.py)
