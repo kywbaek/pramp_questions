@@ -24,3 +24,8 @@ Constraints:
 - [input] string text
   - 1 ≤ text.length ≤ 5000
 - [output] integer
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/bracket-match/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/bracket-match/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/bracket-match/solution.py)
