@@ -19,3 +19,8 @@ Constraints:
 - [time limit] 5000ms
 - [input] Node inputNode
 - [output] Node
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/bst-successor-search/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/bst-successor-search/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/bst-successor-search/solution.py)
