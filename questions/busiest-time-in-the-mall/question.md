@@ -30,3 +30,8 @@ Constraints:
 - [input] array.array.integer data
   - 1 ≤ data.length ≤ 100
 - [output] integer
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/busiest-time-in-the-mall/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/busiest-time-in-the-mall/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/busiest-time-in-the-mall/solution.py)
