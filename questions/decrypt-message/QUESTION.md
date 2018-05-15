@@ -37,3 +37,8 @@ Constraints:
 - [input] string word
   - The ASCII value of every char is in the range of lowercase letters a-z.
 - [output] string
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/decrypt-message/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/decrypt-message/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/decrypt-message/solution.py)
