@@ -27,3 +27,8 @@ Constraints:
 - [input] array.array.integer route
   - 1 ≤ route.length ≤ 100
 - [output] integer
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/drone-flight-planner/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/drone-flight-planner/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/drone-flight-planner/solution.py)
