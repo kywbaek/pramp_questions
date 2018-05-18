@@ -20,3 +20,8 @@ Constraints:
 - [input] array.integer arr2
   - 1 ≤ arr2.length ≤ 100
 - [output] array.integer
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/find-the-duplicates/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/find-the-duplicates/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/find-the-duplicates/solution.py)
