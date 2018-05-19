@@ -41,3 +41,8 @@ Constraints:
 - [time limit] 5000ms
 - [input] Dictionary dict
 - [output] Dictionary
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/flatten-a-dictionary/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/flatten-a-dictionary/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/flatten-a-dictionary/solution.py)
