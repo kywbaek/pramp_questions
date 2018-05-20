@@ -24,3 +24,8 @@ Constraints:
   - 1 ≤ arr.length ≤ MAX_INT
   - 0 ≤ arr[i] ≤ MAX_INT for every i, 0 ≤ i < MAX_INT
 - [output] integer
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/getting-a-different-number/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/getting-a-different-number/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/getting-a-different-number/solution.py)
