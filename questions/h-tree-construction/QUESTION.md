@@ -23,3 +23,8 @@ Constraints:
 - [input] double length
 - [input] double depth
    - 0 ≤ depth ≤ 10
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/h-tree-construction/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/h-tree-construction/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/h-tree-construction/solution.py)
