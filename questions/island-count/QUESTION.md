@@ -27,3 +27,8 @@ Constraints:
   - 1 ≤ binaryMatrix.length ≤ 100
   - 1 ≤ binaryMatrix[i].length ≤ 100
 - [output] integer
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/island-count/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/island-count/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/island-count/solution.py)
