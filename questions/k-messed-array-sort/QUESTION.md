@@ -20,3 +20,8 @@ Constraints:
 - [input] integer k
   - 1 ≤ k ≤ 20
 - [output] array.integer
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/k-messed-array-sort/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/k-messed-array-sort/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/k-messed-array-sort/solution.py)
