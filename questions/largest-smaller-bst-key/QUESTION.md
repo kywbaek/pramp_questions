@@ -18,3 +18,8 @@ Constraints:
 - [time limit] 5000ms
 - [input] **Node** rootNode
 - [output] integer
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/largest-smaller-bst-key/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/largest-smaller-bst-key/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/largest-smaller-bst-key/solution.py)
