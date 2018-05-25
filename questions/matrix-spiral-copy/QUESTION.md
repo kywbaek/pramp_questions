@@ -23,3 +23,8 @@ Constraints:
     - 1 ≤ inputMatrix[0].length ≤ 100
     - 1 ≤ inputMatrix.length ≤ 100
 - [output] array.integer
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/matrix-spiral-copy/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/matrix-spiral-copy/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/matrix-spiral-copy/solution.py)
