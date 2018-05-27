@@ -24,3 +24,8 @@ Constraints:
 - [input] integer k
   - 0 ≤ k
 - [output] array.integer
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/pancake-sort/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/pancake-sort/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/pancake-sort/solution.py)
