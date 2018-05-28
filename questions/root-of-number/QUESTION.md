@@ -25,3 +25,8 @@ Constraints:
 - [input] integer n
   - 0 < n
 - [output] float
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/root-of-number/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/root-of-number/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/root-of-number/solution.py)
