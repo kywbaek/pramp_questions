@@ -26,3 +26,8 @@ Constraints:
 - [input] Node rootNode
   - 0 ≤ rootNode.cost ≤ 100000
 - [output] integer
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/sales-path/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/sales-path/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/sales-path/solution.py)
