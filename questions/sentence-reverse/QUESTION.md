@@ -24,3 +24,8 @@ Constraints:
 - [input] array.character arr
   - 0 ≤ arr.length ≤ 100
 - [output] array.character
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/sentence-reverse/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/sentence-reverse/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/sentence-reverse/solution.py)
