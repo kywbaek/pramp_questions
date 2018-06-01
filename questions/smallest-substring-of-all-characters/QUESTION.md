@@ -20,3 +20,8 @@ Constraints:
 - [input] string str
   - 1 ≤ str.length ≤ 500
 - [output] string
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/smallest-substring-of-all-characters/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/smallest-substring-of-all-characters/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/smallest-substring-of-all-characters/solution.py)
