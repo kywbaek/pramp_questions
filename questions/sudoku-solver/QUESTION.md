@@ -18,3 +18,8 @@ Example (more examples can be found [here](http://www.sudokukingdom.com/)):
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/3/31/Sudoku-by-L2G-20050714_solution.svg "The same board with solution numbers marked in red")
 
 Write a readable an efficient code, explain how it is built and why you chose to build it that way.
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/sudoku-solver/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/sudoku-solver/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/sudoku-solver/solution.py)
