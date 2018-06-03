@@ -34,3 +34,8 @@ Constraints:
   - slotsB[i].length = 2
 - [input] integer
 - [output] array.integer
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/time-planner/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/time-planner/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/time-planner/solution.py)
