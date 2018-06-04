@@ -22,3 +22,8 @@ Constraints:
 - [time limit] 5000ms
 - [input] string document
 - [output] array.array.string
+
+Solutions:
+- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/word-count-engine/solution.java)
+- [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/word-count-engine/solution.js)
+- [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/word-count-engine/solution.py)
