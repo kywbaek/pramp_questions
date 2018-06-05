@@ -15,5 +15,10 @@ class Solution {
   }
 
   public static void main(String[] args) {
+    int[] arr = [1, 4, 5, 2, 3, 7, 8, 6, 10, 9];
+    int k = 2;
+    // Expected output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    // since this is the number of islands in binaryMatrix
+    System.out.println(sortKMessedArray(arr, k));
   }
 }
