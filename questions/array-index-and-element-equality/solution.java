@@ -17,11 +17,11 @@ class Solution {
   }
 
   public static void main(String[] args) {
-    int[] arr1 = [-8,0,2,5];
+    int[] arr1 = {-8,0,2,5};
     // expected output: 2
     System.out.println(indexEqualsValueSearch(arr1));
 
-    int[] arr2 = [-1,0,3,6];
+    int[] arr2 = {-1,0,3,6};
     // expected output: -1
     System.out.println(indexEqualsValueSearch(arr2));
   }
