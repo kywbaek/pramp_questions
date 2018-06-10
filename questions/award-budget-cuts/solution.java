@@ -32,7 +32,7 @@ class Solution {
   }
 
   public static void main(String[] args) {
-    int [] grantsArray = [2, 100, 50, 120, 1000];
+    int [] grantsArray = {2, 100, 50, 120, 1000};
     int newBudget = 190;
 
     // Expected output: 47
