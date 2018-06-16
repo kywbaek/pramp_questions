@@ -16,5 +16,14 @@ class Solution {
   }
 
   public static void main(String[] args) {
+    int[] arr = {4, 6, 10, 15, 16};
+    int lim = 21;
+
+    // Expected output: [3, 1]
+    // since these are the indices of the weights 6 and 15 whose sum equals to 21
+    int[] output = getIndicesOfItemWeights(arr, lim);
+    for (int i: output) {
+      System.out.print(i+" ");
+    }
   }
 }
