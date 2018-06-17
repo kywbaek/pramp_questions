@@ -33,5 +33,12 @@ class Solution {
   }
 
   public static void main(String[] args) {
+    int[] arr = {1, 5, 4, 3, 2};
+
+    // Expected output: [1, 2, 3, 4, 5]
+    int[] output = pancakeSort(arr);
+    for (int i: output) {
+      System.out.print(i+" ");
+    }
   }
 }
