@@ -16,5 +16,14 @@ class Solution {
   }
 
   public static void main(String[] args) {
+    double x = 7;
+    int n = 3;
+    // Expected output: 1.913
+    System.out.println(root(x, n));
+
+    x = 9;
+    n = 2;
+    // Expected output: 3
+    System.out.println(root(x, n));
   }
 }
