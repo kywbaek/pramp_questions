@@ -40,5 +40,11 @@ class Solution {
   }
 
   public static void main(String[] args) {
+    int[] shiftArr = {9, 12, 17, 2, 4, 5};
+    int num = 2;
+    // Expected output: 3
+    // since it’s the index of 2 in arr
+
+    System.out.println(shiftedArrSearch(shiftArr));
   }
 }
