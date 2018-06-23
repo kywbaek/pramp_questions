@@ -52,5 +52,10 @@ class Solution {
   }
 
   public static void main(String[] args) {
+    char[] arr = {'x','y','z'};
+    String str = "xyyzyzyx";
+
+    // Expected output: "zyx"
+    System.out.println(getShortestUniqueSubstring(arr, str));
   }
 }
