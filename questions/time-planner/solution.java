@@ -21,7 +21,24 @@ class Solution {
   }
 
   public static void main(String[] args) {
+    int[][] slotsA = {{10, 50}, {60, 120}, {140, 210}};
+    int[][] slotsB = {{0, 15}, {60, 70}};
+    int dur = 8;
+    // Expected output: [60, 68]
+    int[] output = meetingPlanner(slotsA, slotsB, dur);
+    for (int i: output) {
+      System.out.print(i+" ");
+    }
 
+    slotsA = {{10, 50}, {60, 120}, {140, 210}};
+    slotsB = {{0, 15}, {60, 70}};
+    dur = 12;
+    // Expected output: []
+    // since there is no common slot whose duration is 12
+    output = meetingPlanner(slotsA, slotsB, dur);
+    for (int i: output) {
+      System.out.print(i+" ");
+    }
   }
 
 }
