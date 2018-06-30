@@ -24,6 +24,5 @@ Constraints:
 - [output] array.array.string
 
 Solutions:
-- [Java](https://github.com/kywbaek/pramp_questions/blob/master/questions/word-count-engine/solution.java)
 - [JavaScript](https://github.com/kywbaek/pramp_questions/blob/master/questions/word-count-engine/solution.js)
 - [Python](https://github.com/kywbaek/pramp_questions/blob/master/questions/word-count-engine/solution.py)
