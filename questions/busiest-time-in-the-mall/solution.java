@@ -18,7 +18,7 @@ class Solution {
   }
 
   public static void main(String[] args) {
-    int [][] data = { {487799425,  14, 1},
+    int [][] data = { {1487799425, 14, 1},
                       {1487799425, 4,  0},
                       {1487799425, 2,  0},
                       {1487800378, 10, 1},
