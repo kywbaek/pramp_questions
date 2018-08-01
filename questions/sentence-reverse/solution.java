@@ -25,11 +25,11 @@ class Solution {
   }
 
   public static void main(String[] args) {
-    char[] arr = { 'p', 'e', 'r', 'f', 'e', 'c', 't', '  ',
-                'm', 'a', 'k', 'e', 's', '  ',
+    char[] arr = { 'p', 'e', 'r', 'f', 'e', 'c', 't', ' ',
+                'm', 'a', 'k', 'e', 's', ' ',
                 'p', 'r', 'a', 'c', 't', 'i', 'c', 'e' };
-    /* Expected output: [ 'p', 'r', 'a', 'c', 't', 'i', 'c', 'e', '  ',
-                          'm', 'a', 'k', 'e', 's', '  ',
+    /* Expected output: [ 'p', 'r', 'a', 'c', 't', 'i', 'c', 'e', ' ',
+                          'm', 'a', 'k', 'e', 's', ' ',
                           'p', 'e', 'r', 'f', 'e', 'c', 't' ] */
     char[] output = reverseWords(arr);
     for (char c: output) {
