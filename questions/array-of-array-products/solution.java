@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
   static int[] arrayOfArrayProducts(int[] arr) {
     if (arr.length<=1) {
@@ -21,16 +23,10 @@ class Solution {
   public static void main(String[] args) {
     int[] arr1 = {8, 10, 2};
     // Expected output: {20, 16, 80} by calculating {10*2, 8*2, 8*10}
-    int[] output = arrayOfArrayProducts(arr1);
-    for (int i: output) {
-      System.out.print(i+" ");
-    }
+    System.out.println(Arrays.toString(arrayOfArrayProducts(arr1)));
 
     int[] arr2 = {2, 7, 3, 4};
     // Expected output: {84, 24, 56, 42} by calculating {7*3*4, 2*3*4, 2*7*4, 2*7*3}
-    output = arrayOfArrayProducts(arr2);
-    for (int i: output) {
-      System.out.print(i+" ");
-    }
+    System.out.println(Arrays.toString(arrayOfArrayProducts(arr2)));
   }
 }
