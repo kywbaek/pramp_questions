@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
   static int[] findArrayQuadruplet(int[] arr, int s) {
     int n = arr.length;
@@ -35,9 +37,6 @@ class Solution {
     /*  The ordered quadruplet of (7, 4, 0, 9) whose sum is 20. Notice that there
        are two other quadruplets whose sum is 20: (7, 9, 1, 3) and (2, 4, 9, 5),
        but again you’re asked to return the just one quadruplet (in an ascending order) */
-    int [] output = findArrayQuadruplet(arr, s);
-    for (int i: output) {
-      System.out.print(i+" ");
-    }
+    System.out.println(Arrays.toString(findArrayQuadruplet(arr, s)));
   }
 }
