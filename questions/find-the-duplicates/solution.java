@@ -27,9 +27,6 @@ class Solution {
     int[] arr1 = {1, 2, 3, 5, 6, 7};
     int[] arr2 = {3, 6, 7, 8, 20};
     // Expected output: [3, 6, 7] since only these three values are both in arr1 and arr2
-    int[] output = findDuplicates(arr1, arr2);
-    for (int i: output) {
-      System.out.print(i+" ");
-    }
+    System.out.println(Arrays.toString(findDuplicates(arr1, arr2)));
   }
 }
