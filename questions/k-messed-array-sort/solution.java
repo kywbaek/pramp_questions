@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
   // insertionSort
   static int[] sortKMessedArray(int[] arr, int k) {
@@ -19,9 +21,6 @@ class Solution {
     int k = 2;
     // Expected output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     // since this is the number of islands in binaryMatrix
-    int[] output = sortKMessedArray(arr, k);
-    for (int i: output) {
-      System.out.print(i+" ");
-    }
+    System.out.println(Arrays.toString(sortKMessedArray(arr, k)));
   }
 }
