@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Arrays;
 
 class Solution {
 
@@ -21,9 +21,6 @@ class Solution {
 
     // Expected output: [3, 1]
     // since these are the indices of the weights 6 and 15 whose sum equals to 21
-    int[] output = getIndicesOfItemWeights(arr, lim);
-    for (int i: output) {
-      System.out.print(i+" ");
-    }
+    System.out.println(Arrays.toString(getIndicesOfItemWeights(arr, lim)));
   }
 }
