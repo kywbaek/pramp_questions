@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
   static void flip(int[] arr, int k) {
     int lo=0, hi=k-1;
@@ -36,9 +38,6 @@ class Solution {
     int[] arr = {1, 5, 4, 3, 2};
 
     // Expected output: [1, 2, 3, 4, 5]
-    int[] output = pancakeSort(arr);
-    for (int i: output) {
-      System.out.print(i+" ");
-    }
+    System.out.println(Arrays.toString(pancakeSort(arr)));
   }
 }
