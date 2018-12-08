@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
 
   static int[] meetingPlanner(int[][] slotsA, int[][] slotsB, int dur) {
@@ -35,10 +37,7 @@ class Solution {
     dur = 12;
     // Expected output: []
     // since there is no common slot whose duration is 12
-    output = meetingPlanner(slotsA, slotsB, dur);
-    for (int i: output) {
-      System.out.print(i+" ");
-    }
+    System.out.println(Arrays.toString(meetingPlanner(slotsA, slotsB, dur)));
   }
 
 }
