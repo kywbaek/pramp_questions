@@ -11,7 +11,7 @@
 
 
 # A node
-class Node:
+class Node(object):
 
   # Constructor to create a new node
   def __init__(self, key):
@@ -21,6 +21,8 @@ class Node:
     self.parent = None
 
 # A binary search tree
+
+
 class BinarySearchTree:
 
   # Constructor to create a new BST
@@ -38,7 +40,6 @@ class BinarySearchTree:
       while current.parent and current.parent.right == current:
         current = current.parent
       return current.parent
-
 
   # Given a binary search tree and a number, inserts a
   # new node with the given number in the correct place
@@ -61,18 +62,18 @@ class BinarySearchTree:
 
       if(key < currentNode.key):
         if(currentNode.left is None):
-          currentNode.left = newNode;
-          newNode.parent = currentNode;
+          currentNode.left = newNode
+          newNode.parent = currentNode
           break
         else:
-          currentNode = currentNode.left;
+          currentNode = currentNode.left
       else:
         if(currentNode.right is None):
-          currentNode.right = newNode;
-          newNode.parent = currentNode;
+          currentNode.right = newNode
+          newNode.parent = currentNode
           break
         else:
-          currentNode = currentNode.right;
+          currentNode = currentNode.right
 
   # Return a reference to a node in the BST by its key.
   # Use this method when you need a node to test your
@@ -95,15 +96,16 @@ class BinarySearchTree:
 # Driver program to test above function #
 #########################################
 
+
 # Create a Binary Search Tree
-bst  = BinarySearchTree()
+bst = BinarySearchTree()
 bst.insert(20)
-bst.insert(9);
-bst.insert(25);
-bst.insert(5);
-bst.insert(12);
-bst.insert(11);
-bst.insert(14);
+bst.insert(9)
+bst.insert(25)
+bst.insert(5)
+bst.insert(12)
+bst.insert(11)
+bst.insert(14)
 
 # Get a reference to the node whose key is 9
 test = bst.getNodeByKey(20)
@@ -113,7 +115,7 @@ succ = bst.find_in_order_successor(test)
 
 # Print the key of the successor node
 if succ is not None:
-    print ("\nInorder Successor of %d is %d " \
-            %(test.key , succ.key))
+  print "Inorder Successor of %d is %d " \
+      % (test.key, succ.key)
 else:
-    print ("\nInorder Successor doesn't exist")
+  print "Inorder Successor doesn't exist"
