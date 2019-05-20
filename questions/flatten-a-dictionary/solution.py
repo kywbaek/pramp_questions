@@ -1,4 +1,4 @@
-def flatten_dictionary1(dictionary):
+def flatten_dictionary(dictionary):
   flatCount = 0
   for key in dictionary.keys():
     if type(dictionary[key]) == dict:
