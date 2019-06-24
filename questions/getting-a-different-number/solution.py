@@ -8,6 +8,8 @@ def get_different_number(arr):
   return n
 
 # time - O(n), space - O(n)
+
+
 def get_different_number1(arr):
   n = len(arr)
   dic = {}
@@ -17,3 +19,12 @@ def get_different_number1(arr):
     if i not in dic:
       return i
   return n
+
+
+arr = [0, 1, 2, 3]
+# Expected output: 4
+print(get_different_number1(arr))
+
+arr = [5, 1, 0, 3]
+# Expected output: 2
+print(get_different_number1(arr))
