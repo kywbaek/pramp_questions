@@ -11,7 +11,7 @@
 
 
 # A node
-class Node:
+class Node(object):
 
   # Constructor to create a new node
   def __init__(self, key):
@@ -23,7 +23,7 @@ class Node:
 # A binary search tree
 
 
-class BinarySearchTree:
+class BinarySearchTree(object):
 
   # Constructor to create a new BST
   def __init__(self):
@@ -93,4 +93,4 @@ bst.insert(14)
 
 result = bst.find_largest_smaller_key(10)
 
-print (result)
+print(result)
